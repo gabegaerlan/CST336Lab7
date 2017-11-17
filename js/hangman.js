@@ -3,9 +3,10 @@ var selectedWord = "";
 var selectedHint = "";
 var board = "";
 var remainingGuesses = 6;
-var words = [{ word: "snake", hint: "It's a reptile" },
-             { word: "monkey", hint: "It's a mammal" },
-             { word: "beetle", hint: "It's an insect" }];
+var words = [{ word: "dolphin",hint: "It's a mammal" },
+             { word: "butterfly",hint: "It's an insect" },
+             { word: "monkey",hint: "It's a mammal" },
+             { word: "snake",hint: "It's a reptile"}];
 var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
                 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
                 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
